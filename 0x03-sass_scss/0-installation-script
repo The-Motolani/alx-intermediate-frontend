@@ -1,0 +1,27 @@
+# Steps to install and set up SASS
+
+# 1. Create project directory
+mkdir 0x03-sass_scss
+cd 0x03-sass_scss
+
+# 2. Install Node Version Manager (nvm)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+# 3. Exit and reopen the terminal to load nvm
+exit
+
+# 4. Verify that nvm is installed
+command -v nvm
+
+# 5. Install Node.js version 20.16 using nvm
+nvm install 20.16
+
+# 6. Verify node and npm installation
+node -v
+npm -v
+
+# 7. Install SASS version 3.7.4
+npm install sass@3.7.4
+
+# 8. Verify SASS installation
+npx sass --version
